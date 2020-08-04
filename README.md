@@ -1,13 +1,15 @@
-# DyedBackpacks
-A brand new Slimefun addon adding the ability to dye your beloved backpacks!
-- Dye all your backpacks by using the wools with the wanted color.
-- Supports all 16 Minecraft default colors.
-- Extensive configuration options! Disable/Enable backpack coloring per level.
+# 染色背包
+黏液科技的附加 繁體翻譯版<br>
 
-[Read more...](https://github.com/TheBusyBiscuit/Slimefun4/wiki/DyedBackpacks)
+可以讓你的背包染成您喜愛的顏色
+- 使用羊毛與染料將所有背包染成你想要的顏色!
+- 支持所有16種Minecraft默認顏色.
 
-## Download DyedBackpacks
-You can download DyedBackpacks right here: [Development Builds](https://thebusybiscuit.github.io/builds/TheBusyBiscuit/DyedBackpacks/master/)
+[官方原碼連結](https://github.com/TheBusyBiscuit/DyedBackpacks)
+
+## 下載染色背包
+下載繁體翻譯版: [點此](https://github.com/xMikux/DyedBackpacks/releases)<br>
+你也可以在這裡下載官方的開發版: [開發版構建](https://thebusybiscuit.github.io/builds/TheBusyBiscuit/DyedBackpacks/master/)
 
 <p align="center">
   <a href="https://thebusybiscuit.github.io/builds/TheBusyBiscuit/DyedBackpacks/master/">
@@ -16,8 +18,8 @@ You can download DyedBackpacks right here: [Development Builds](https://thebusyb
 </p>
 
 ## Discord
-You can find Slimefun's community on Discord!
-Click the badge down below to join the server for suggestions/questions or other discussions about this plugin.
+您可以在Discord上找到官方SlimeFun社區!
+點擊下面的徵標來加入伺服器.
 <p align="center">
   <a href="https://discord.gg/fsD4Bkh">
     <img src="https://img.shields.io/discord/565557184348422174?color=7289DA&label=Discord&style=for-the-badge" alt="Discord Invite"/>

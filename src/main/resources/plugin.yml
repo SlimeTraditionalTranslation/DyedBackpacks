@@ -1,7 +1,7 @@
 name: DyedBackpacks
 version: ${project.version}
 author: TheBusyBiscuit
-description: A Slimefun Addon that adds dyed backpacks
+description: 此插件為繁體翻譯版, 原作者"TheBusyBiscuit".
 website: https://github.com/TheBusyBiscuit/DyedBackpacks
 
 main: io.github.thebusybiscuit.dyedbackpacks.DyedBackpacks
