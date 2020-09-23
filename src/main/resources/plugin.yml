@@ -1,7 +1,7 @@
 name: DyedBackpacks
 version: ${project.version}
 author: TheBusyBiscuit
-description: 此插件為繁體翻譯版, 原作者"TheBusyBiscuit".
+description: 黏液科技附加 染色背包 繁體翻譯版.
 website: https://github.com/TheBusyBiscuit/DyedBackpacks
 
 main: io.github.thebusybiscuit.dyedbackpacks.DyedBackpacks

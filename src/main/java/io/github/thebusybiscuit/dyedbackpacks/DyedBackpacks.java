@@ -12,7 +12,6 @@ import me.mrCookieSlime.Slimefun.api.SlimefunItemStack;
 import me.mrCookieSlime.Slimefun.bstats.bukkit.Metrics;
 import me.mrCookieSlime.Slimefun.cscorelib2.config.Config;
 import me.mrCookieSlime.Slimefun.cscorelib2.skull.SkullItem;
-import me.mrCookieSlime.Slimefun.cscorelib2.updater.GitHubBuildsUpdater;
 
 public class DyedBackpacks extends JavaPlugin implements SlimefunAddon {
 
@@ -21,11 +20,7 @@ public class DyedBackpacks extends JavaPlugin implements SlimefunAddon {
         Config cfg = new Config(this);
         new Metrics(this, 5778);
 
-        if (cfg.getBoolean("options.auto-update") && getDescription().getVersion().startsWith("DEV - ")) {
-            new GitHubBuildsUpdater(this, getFile(), "TheBusyBiscuit/DyedBackpacks/master").start();
-        }
-
-        Research research = new Research(new NamespacedKey(this, "dyed_backpacks"), 17200, "Dyed Backpacks", 24);
+        Research research = new Research(new NamespacedKey(this, "dyed_backpacks"), 17200, "更多色彩的背包", 24);
         Category category = new Category(new NamespacedKey(this, "dyed_backpacks"), new CustomItem(SkullItem.fromBase64(BackpackColor.RED.getTexture()), "&4染色背包"), 2);
 
         if (cfg.getBoolean("backpacks.small")) {
@@ -61,7 +56,7 @@ public class DyedBackpacks extends JavaPlugin implements SlimefunAddon {
 
     @Override
     public String getBugTrackerURL() {
-        return "https://github.com/TheBusyBiscuit/DyedBackpacks/issues";
+        return "https://github.com/xMikux/DyedBackpacks/issues";
     }
 
     @Override
