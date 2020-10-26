@@ -5,7 +5,8 @@
 - 使用羊毛與染料將所有背包染成你想要的顏色!
 - 支持所有16種Minecraft默認顏色.
 
-[官方原碼連結](https://github.com/TheBusyBiscuit/DyedBackpacks)
+此為**非官方**版本, 請勿在該作者的問題追蹤內回報!
+[原作者連結](https://github.com/TheBusyBiscuit/DyedBackpacks)
 
 ## 下載染色背包
 繁體翻譯版: [構建頁面](https://xmikux.github.io/builds/xMikux/DyedBackpacks/master)<br>

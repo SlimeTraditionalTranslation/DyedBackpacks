@@ -9,7 +9,7 @@ import io.github.thebusybiscuit.slimefun4.implementation.SlimefunItems;
 import me.mrCookieSlime.CSCoreLibPlugin.general.Inventory.Item.CustomItem;
 import me.mrCookieSlime.Slimefun.Objects.Category;
 import me.mrCookieSlime.Slimefun.api.SlimefunItemStack;
-import me.mrCookieSlime.Slimefun.bstats.bukkit.Metrics;
+//import me.mrCookieSlime.Slimefun.bstats.bukkit.Metrics;
 import me.mrCookieSlime.Slimefun.cscorelib2.config.Config;
 import me.mrCookieSlime.Slimefun.cscorelib2.skull.SkullItem;
 
@@ -18,7 +18,7 @@ public class DyedBackpacks extends JavaPlugin implements SlimefunAddon {
     @Override
     public void onEnable() {
         Config cfg = new Config(this);
-        new Metrics(this, 5778);
+        //new Metrics(this, 5778);
 
         Research research = new Research(new NamespacedKey(this, "dyed_backpacks"), 17200, "更多色彩的背包", 24);
         Category category = new Category(new NamespacedKey(this, "dyed_backpacks"), new CustomItem(SkullItem.fromBase64(BackpackColor.RED.getTexture()), "&4染色背包"), 2);
