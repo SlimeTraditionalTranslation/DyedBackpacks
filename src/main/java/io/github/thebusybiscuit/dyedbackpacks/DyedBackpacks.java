@@ -1,5 +1,7 @@
 package io.github.thebusybiscuit.dyedbackpacks;
 
+import javax.annotation.ParametersAreNonnullByDefault;
+
 //import org.bstats.bukkit.Metrics;
 import org.bukkit.NamespacedKey;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -13,6 +15,15 @@ import me.mrCookieSlime.Slimefun.cscorelib2.config.Config;
 import me.mrCookieSlime.Slimefun.cscorelib2.item.CustomItem;
 import me.mrCookieSlime.Slimefun.cscorelib2.skull.SkullItem;
 
+/**
+ * This is the main class of the {@link DyedBackpacks} addon.
+ * Here we initialize the different instances of {@link DyedBackpack}.
+ * 
+ * @author TheBusyBiscuit
+ * 
+ * @see DyedBackpack
+ *
+ */
 public class DyedBackpacks extends JavaPlugin implements SlimefunAddon {
 
     @Override
@@ -45,6 +56,7 @@ public class DyedBackpacks extends JavaPlugin implements SlimefunAddon {
         research.register();
     }
 
+    @ParametersAreNonnullByDefault
     private void createBackpacks(Category category, Research research, SlimefunItemStack backpack, int size) {
         for (BackpackColor color : BackpackColor.values()) {
             SlimefunItemStack item = new SlimefunItemStack("DYED_" + backpack.getItemId() + "_" + color.name(), color.getTexture(), backpack.getItemMeta().getDisplayName() + " &7(" + color.getName() + "&7)", backpack.getItemMeta().getLore().toArray(new String[0]));
