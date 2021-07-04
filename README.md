@@ -9,11 +9,11 @@
 [原作者連結](https://github.com/TheBusyBiscuit/DyedBackpacks)
 
 ## 下載染色背包
-繁體翻譯版: [構建頁面](https://xmikux.github.io/builds/xMikux/DyedBackpacks/master)<br>
+繁體翻譯版: [構建頁面](https://xmikux.github.io/builds/SlimeTraditionalTranslation/DyedBackpacks/master)<br>
 官方開發版: [開發版構建頁面](https://thebusybiscuit.github.io/builds/TheBusyBiscuit/DyedBackpacks/master/)
 <p align="center">
-  <a href="https://xmikux.github.io/builds/xMikux/DyedBackpacks/master/">
-    <img src="https://xmikux.github.io/builds/xMikux/DyedBackpacks/master/badge.svg" alt="構建伺服器"/>
+  <a href="https://xmikux.github.io/builds/SlimeTraditionalTranslation/DyedBackpacks/master/">
+    <img src="https://xmikux.github.io/builds/SlimeTraditionalTranslation/DyedBackpacks/master/badge.svg" alt="構建伺服器"/>
   </a>
 </p>
 
